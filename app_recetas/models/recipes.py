@@ -1,5 +1,5 @@
 from unittest import result
-from application.config.mysqlconnection import connectToMySQL # import the connectToMySQL function from the application.config.mysqlconnection module
+from app_recetas.config.mysqlconnection import connectToMySQL # import the connectToMySQL function from the application.config.mysqlconnection module
 from flask import flash
 import re
 
